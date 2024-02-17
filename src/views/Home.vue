@@ -35,4 +35,23 @@ section.hero-section {
   inline-size: 100%;
 }
 
+.hero-section a {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 0.6rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 0 0.3rem 0;
+  cursor: pointer;
+}
+
+section.hero-section h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
 </style>
