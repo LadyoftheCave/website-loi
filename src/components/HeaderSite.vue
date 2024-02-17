@@ -123,15 +123,9 @@ header nav.menu {
 }
 
 
-  header section.hero-section {
-    position: absolute;
-    top: 11rem;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    text-align: center;
-    inline-size: 100%;
-  }
+
+
+
 
 
 .hamburger

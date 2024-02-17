@@ -54,4 +54,25 @@ section.hero-section h1 {
   letter-spacing: 0.1rem;
 }
 
+@media (min-width: 388px) {
+  section.hero-section h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section.hero-section h1 {
+    font-size: 5rem;
+  }
+
+  section.hero-section {
+    position: absolute;
+    top: 11rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    inline-size: 100%;
+  }
+}
 </style>
