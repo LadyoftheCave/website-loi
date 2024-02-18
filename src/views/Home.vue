@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header_container">
     <section class="hero-section">
                 <h1>Idee&euml;nbus</h1>
                 <p>Ontdek en deel creatieve idee&euml;n binnen WebKnight B.V..</p>
@@ -11,10 +11,7 @@
       <source media="(min-width: 1201px)" srcset="../assets/images/high_fidelity_vp.webp" type="image/webp">
       <img src="../assets/images/high_fidelity_vp.jpg" alt="Header Banner" class="header-image">
     </picture>
-    <p>Je tekst hier</p>
-  </div>
-
-  <div class="usps container--narrow">
+    <div class="usps container--narrow">
                 <div class="usp usp_one">
                     <h2>Innovatie</h2>
                     <h3>Baanbrekende idee&euml;n</h3>
@@ -40,6 +37,10 @@
                     <a href="idee_overzicht.html" class="usp-button">lees verder</a>
                 </div>
             </div>
+    <p>Je tekst hier</p>
+  </div>
+
+  
 
 </template>
 
@@ -101,6 +102,10 @@ section.hero-section h1 {
     margin: 0 auto;
     text-align: center;
     inline-size: 100%;
+  }
+
+  .header_container {
+    position: relative;
   }
 }
 </style>

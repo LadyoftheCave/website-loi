@@ -215,7 +215,7 @@ header picture img {
   inline-size: 100%;
 }
 
-header .usps {
+.usps {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -226,7 +226,7 @@ header .usps {
   text-align: center;
 }
 
-header .usps .usp {
+ .usps .usp {
   inline-size: 100%;
   block-size: auto;
   background-color: white;
@@ -234,16 +234,16 @@ header .usps .usp {
   padding: 0 1.5rem 0 1.5rem;
 }
 
-header .usps .usp h3 {
+.usps .usp h3 {
   margin-block-end: 1rem;
 }
 
-header .usps .usp button.usp_button,
-header .usps .usp .usp_button,
-header section.hero-section button,
+.usps .usp button.usp_button,
+ .usps .usp .usp_button,
+ section.hero-section button,
 main section.section_two .read .read_button,
 main #myForm .submit_button button,
-header .hero-section a {
+ .hero-section a {
   background-color: transparent;
   border: 1px solid black;
   color: black;
@@ -259,7 +259,7 @@ header .hero-section a {
   font-size: 0.8rem;
 }
 
-header .usps .usp a.usp-button,
+.usps .usp a.usp-button,
 main .idea_container a.usp-button,
 main .section_two .read .usp-button {
   background-color: transparent;
@@ -274,11 +274,11 @@ main .section_two .read .usp-button {
   font-size: 0.8rem;
 }
 
-header .usps button.usp_button:hover,
+.usps button.usp_button:hover,
 header section.hero-section button:hover,
 section.section_two .read .read_button:hover,
 header .hero-section a:hover,
-header .usps .usp a.usp-button:hover,
+.usps .usp a.usp-button:hover,
 main .section_two .read .usp-button:hover,
 main #myForm .submit_button button:hover,
 main .idea_container a.usp-button:hover {
@@ -677,7 +677,7 @@ main .idee_box {
   }
 }
 @media (min-width: 600px) {
-  header .usps {
+  .usps {
     text-align: left;
   }
 
@@ -886,20 +886,20 @@ main .idee_box {
 }
 
 @media (min-width: 1016px) {
-  header .usps {
+  .usps {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
     position: absolute;
-    bottom: 3rem;
+    bottom: 4rem;
     left: 0;
     right: 0;
     margin: 0 auto;
     inline-size: 100%;
   }
 
-  header .usps .usp {
+   .usps .usp {
     inline-size: 18rem;
     block-size: auto;
     background-color: white;
@@ -907,7 +907,7 @@ main .idee_box {
     padding: 1.5rem;
   }
 
-  header .usps .usp h3 {
+  .usps .usp h3 {
     margin-block-end: 1rem;
   }
 }
