@@ -1,5 +1,5 @@
 <template>
-  <div class="header_container">
+  <section class="header_container">
     <section class="hero-section">
                 <h1>Idee&euml;nbus</h1>
                 <p>Ontdek en deel creatieve idee&euml;n binnen WebKnight B.V..</p>
@@ -37,9 +37,93 @@
                     <a href="idee_overzicht.html" class="usp-button">lees verder</a>
                 </div>
             </div>
-    <p>Je tekst hier</p>
-  </div>
+    <!-- <p>Je tekst hier</p> -->
+          </section>
+          <main>
+            <section class="section_one">
+                <div class="white_container container--narrow">
+                    <div class="text_left">
+                        <h3>
+                            Ontdek en Deel Jouw idee&euml;n
+                        </h3>
+                        <p>
+                            Welkom bij de idee&euml;nbus van WebKnight B.V., een platform voor het delen en ontdekken van idee&euml;n. Hier heb je de mogelijkheid om als medewerker bij te dragen aan de groei van ons bedrijf. Deel je
+                            idee&euml;n, geef feedback en ontdek hoe jouw bijdrage het verschil kan maken.
+                        </p>
+                        <br>
+                        <h3>Hoe Werkt Het?</h3>
+                        <p>
+                            <strong>Verken idee&euml;n:</strong> Bekijk idee&euml;n van collega's en ontdek wat er speelt binnen ons bedrijf.<br>
 
+                            <strong>Deel Jouw Inzichten:</strong> Heb je een idee of suggestie? Deel het met de gemeenschap en draag bij aan positieve verandering.
+                        </p>
+                    </div>
+                    <div class="img_middle"><img src="../assets/images/lightbulb.webp" alt=""><noscript><img src="../assets/images/lightbulb.png" alt="Your Image (Fallback)"></noscript></div>
+                    <div class="text_right">
+                        <p><strong>Betrokkenheid: </strong> Ontvang feedback, werk samen met collega's en zie hoe jouw inbreng de bedrijfscultuur beïnvloedt.</p>
+                        <p><strong>Samen bouwen: </strong> Bij WebKnight B.V. bouwen we samen aan een betere toekomst. Jouw idee&euml;n en inzichten zijn de bouwstenen van onze vooruitgang.</p>
+                        <br>
+
+                        <h3>Jouw Stem Telt</h3>
+                        <p>
+                            Bij WebKnight B.V. waarderen we de inbreng van iedereen, dus ook van jou! De idee&euml;nbus is jouw kans om gehoord te worden en deel uit te maken van de groei van ons bedrijf. Doe mee en ontdek de kracht van
+                            collectieve creativiteit!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section_two container--grey">
+                <div class="grey_container container--narrow">
+                    <div class="read read_one">
+                        <h3>Innovatie</h3>
+                        <p>Bij WebKnight B.V. is innovatie meer dan een buzzword. Het is de motor die ons vooruit drijft.</p>
+                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    </div>
+                    <div class="read read_two">
+                        <h3>Creativiteit</h3>
+                        <p>Creativiteit is de vonk die onze idee&euml;n tot leven brengt. Laat je inspireren en inspireer anderen!</p>
+                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    </div>
+                    <div class="read read_three">
+                        <h3>Realisaties</h3>
+                        <p>Onze realisaties zijn het bewijs van onze inzet. Ze tonen aan hoe we uitdagingen omzetten in kansen.</p>
+                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    </div>
+                    <div class="read read_three">
+                        <h3>Bijdragen</h3>
+                        <p>Elke bijdrage telt. Jouw idee&euml;n kunnen de koers van WebKnight B.V. veranderen.</p>
+                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section_three">
+                <div class="white_container container--narrow">
+                    <div class="img_middle"><img src="../assets/images/idee_creation.webp" alt=""><noscript><img src="../assets/images/idee_creation.png" alt="Your Image (Fallback)"></noscript>
+                    </div>
+                    <div class="text_right">
+                        <h3>Samen Innoveren bij WebKnight B.V.</h3>
+                        <p>
+                            Bij WebKnight B.V. geloven we in de kracht van samenwerking en gedeelde inzichten. Onze idee&euml;nbus is een weerspiegeling van deze overtuiging. Het is een platform waar we samen komen om te leren, te groeien
+                            en te innoveren.<br>
+                            <br>
+
+                            <strong>De Kracht van idee&euml;n</strong>
+
+                            Elk idee, hoe klein ook, heeft het potentieel om grote veranderingen teweeg te brengen. We moedigen je aan om je gedachten, idee&euml;n en inzichten te delen. Elk idee is waardevol en kan bijdragen aan onze
+                            gezamenlijke groei.<br>
+                            <br>
+
+                            <strong>Een Gemeenschap van Innovators</strong>
+
+                            We zijn meer dan alleen een bedrijf - we zijn een gemeenschap van innovators. Samen kunnen we aan het uitbreiden van onze mogelijkheden werken en een positieve impact te maken.<br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
   
 
 </template>
