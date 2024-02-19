@@ -134,7 +134,7 @@ header nav.menu {
   padding-block-start: 0.3rem;
 }
 
-header section.hero-section h1.interior {
+section.hero-section h1.interior {
   color: var(--kleur-interior);
   text-shadow: 1px 1px 3px #fff;
   opacity: 0.8;
