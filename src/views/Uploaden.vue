@@ -18,21 +18,18 @@
                         <p>Jouw idee kan het verschil maken!</p>
                     </div>
 
-                    <form id="myForm">
-                        <!-- Tekstveld -->
+                    <form @submit.prevent="submitForm">
                         <label for="tekstveld">OnderWerp:</label>
-                        <input type="text" id="tekstveld" name="tekstveld" required>
+                        <input type="text" v-model="formData.onderwerp" required>
 
                         <br>
 
-                        <!-- Tekstarea -->
                         <label for="tekstarea">Jouw idee of suggestie:</label>
-                        <textarea id="tekstarea" name="tekstarea" rows="12" cols="50" required></textarea>
+                        <textarea v-model="formData.suggestie" required></textarea>
 
                         <br>
 
-                        <!-- Selectie -->
-                        <select id="selectie" name="selectie" required>
+                        <select v-model="formData.afdeling" required>
                             <option value="" disabled selected>Selecteer afdeling</option>
                             <option value="webdevelopment">Webdevelopment</option>
                             <option value="marketing">Marketing</option>
@@ -47,7 +44,6 @@
                         <br>
                         <br>
 
-                        <!-- Verzendknop -->
                         <div class="submit_button">
                             <button type="button" onclick="saveIdeaForm()">Opslaan</button>
                         </div>
@@ -59,7 +55,19 @@
   
   <script>
   export default {
-    name: 'Uploaden'
+    data() {
+      return {
+        formData: {
+          onderwerp: '',
+          suggestie: '',
+          afdeling: '',
+        }
+      }
+    },
+    name: 'Uploaden',
+    methods: {
+
+    }
   }
   </script>
 
