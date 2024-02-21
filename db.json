@@ -1,6 +1,5 @@
 {
   "formulieren": [
-    
     {
       "id": "dd47",
       "onderwerp": "Nieuwe stoelen",
@@ -18,6 +17,12 @@
       "onderwerp": "Een donderdagmiddagborrel",
       "ideeArea": "Iedere donderdagmiddag borrel met karaoke.",
       "selectie": "marketing"
+    },
+    {
+      "id": "30d3",
+      "onderwerp": "Een gezellige leeravond in de week",
+      "ideeArea": "Om 1 avond in de maand, of in de week een gezellige avond te organiseren om op een ontspannen manier de kennis van het personeel bij te spijkeren.",
+      "selectie": "Management"
     }
   ]
 }
