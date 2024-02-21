@@ -41,7 +41,7 @@
   .container--parent {
   display: flex;
   justify-content: center;
-  margin: 2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
 }
 
 .idee--container {
