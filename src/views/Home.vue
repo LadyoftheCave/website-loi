@@ -15,25 +15,25 @@
                 <div class="usp usp_one">
                     <h2>Innovatie</h2>
                     <h3>Baanbrekende idee&euml;n</h3>
-                    <p>Verken de idee&euml;n van jouw collega's. Ontdek hoe hun innovaties ons bedrijf vooruit helpen en blijf op de hoogte van de allerlaatste ontwikkelingen."</p>
+                    <p>Je kunt op deze site de idee&euml;n van jouw collega's bekijken. Ontdek hoe eerder ideeën ons bedrijf vooruit hebben geholpen."</p>
                     <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_two">
                     <h2>Creativiteit</h2>
                     <h3>Kracht van creativiteit</h3>
-                    <p>Ontdek hoe het aanmoedigen van creatief denken binnen ons bedrijf unieke oplossingen kan opleveren en de groei kan stimuleren.</p>
+                    <p>Creatief denken binnen ons bedrijf wordt aangemoedigd! Ook jouw idee kan bijdragen, het kan unieke oplossingen opleveren en groei stimuleren.</p>
                     <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_three">
                     <h2>Realisaties</h2>
                     <h3>Kijkje achter de schermen</h3>
-                    <p>Neem een kijkje binnen onze meest innovatieve projecten. Ontdek hoe we uitdagingen omzetten in kansen en bekijk de impact van onze oplossingen.</p>
+                    <p>Neem een kijkje binnen onze meest innovatieve projecten. Ontdek hoe we eerder uitdagingen hebben omgezet in kansen en bekijk onze oplossingen.</p>
                     <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_three">
                     <h2>Bijdragen</h2>
                     <h3>Bijdragen aan verandering</h3>
-                    <p>Ontdek hoe jouw idee&euml;n een verschil kunnen maken en hoe je kunt bijdragen aan het bereiken van onze gemeenschappelijke doelen.</p>
+                    <p>Jouw idee&euml;n kunnen een verschil maken! Lees meer over hoe je kunt bijdragen aan het bereiken van onze gemeenschappelijke doelen.</p>
                     <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
             </div>
@@ -88,22 +88,22 @@
                 <div class="grey_container container--narrow">
                     <div class="read read_one">
                         <h3>Innovatie</h3>
-                        <p>Bij WebKnight B.V. is innovatie meer dan een buzzword. Het is de motor die ons vooruit drijft.</p>
+                        <p>Bij WebKnight B.V. is innovatie de motor die het bedrijf vooruit brengt. Help je ons hiermee?</p>
                         <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_two">
                         <h3>Creativiteit</h3>
-                        <p>Creativiteit is de vonk die onze idee&euml;n tot leven brengt. Laat je inspireren en inspireer anderen!</p>
+                        <p>Creativiteit is een helder moment dat nodig is om jouw idee&euml;n tot leven te brengen. </p>
                         <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_three">
                         <h3>Realisaties</h3>
-                        <p>Onze realisaties zijn het bewijs van onze inzet. Ze tonen aan hoe we uitdagingen omzetten in kansen.</p>
+                        <p>Onze ideeënbus heeft al geleid tot waardevolle input waar we daadwerkelijk wat mee hebben gedaan.</p>
                         <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_three">
                         <h3>Bijdragen</h3>
-                        <p>Elke bijdrage telt. Jouw idee&euml;n kunnen de koers van WebKnight B.V. veranderen.</p>
+                        <p>Elke bijdrage telt. Jouw idee&euml;n kunnen de koers van WebKnight B.V. doen veranderen.</p>
                         <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                 </div>
@@ -114,21 +114,19 @@
                     <div class="img_middle"><img src="../assets/images/idee_creation.webp" alt=""><noscript><img src="../assets/images/idee_creation.png" alt="Your Image (Fallback)"></noscript>
                     </div>
                     <div class="text_right">
-                        <h3>Samen Innoveren bij WebKnight B.V.</h3>
+                        <h3>Samen innoveren bij WebKnight B.V.</h3>
                         <p>
-                            Bij WebKnight B.V. geloven we in de kracht van samenwerking en gedeelde inzichten. Onze idee&euml;nbus is een weerspiegeling van deze overtuiging. Het is een platform waar we samen komen om te leren, te groeien
-                            en te innoveren.<br>
+                          Bij WebKnight B.V. vinden we het belangrijk om samen te werken en ideeën te delen. We hebben een ideeënbus waar we elkaar ontmoeten om te leren en nieuwe dingen te bedenken.<br>
                             <br>
 
-                            <strong>De Kracht van idee&euml;n</strong>
+                            <strong>De kracht van idee&euml;n</strong>
 
-                            Elk idee, hoe klein ook, heeft het potentieel om grote veranderingen teweeg te brengen. We moedigen je aan om je gedachten, idee&euml;n en inzichten te delen. Elk idee is waardevol en kan bijdragen aan onze
-                            gezamenlijke groei.<br>
+                            Elk idee, hoe klein ook, kan het potentieel hebben om een grote verandering teweeg te brengen. Hierdoor nodigen we je uit om je gedachten, idee&euml;n en inzichten te delen. Elk idee is waardevol!<br>
                             <br>
 
-                            <strong>Een Gemeenschap van Innovators</strong>
+                            <strong>Een groep met innovators</strong>
 
-                            We zijn meer dan alleen een bedrijf - we zijn een gemeenschap van innovators. Samen kunnen we aan het uitbreiden van onze mogelijkheden werken en een positieve impact te maken.<br>
+                            We zijn meer dan alleen een bedrijf, we zijn een enorme groep met (toekomstige) innovators. Samen kunnen we aan het innoveren van ons bedrijf werken.<br>
                             <br>
                         </p>
                     </div>
