@@ -822,6 +822,9 @@ main .idee_box {
 
   main section.section_one .img_middle {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   main section.section_three .text_right {
@@ -893,7 +896,7 @@ main .idee_box {
     justify-content: space-between;
     gap: 2rem;
     position: absolute;
-    bottom: 4rem;
+    bottom: 3rem;
     left: 0;
     right: 0;
     margin: 0 auto;

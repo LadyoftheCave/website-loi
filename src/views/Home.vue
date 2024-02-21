@@ -3,7 +3,7 @@
     <section class="hero-section">
                 <h1>Idee&euml;nbus</h1>
                 <p>Ontdek en deel creatieve idee&euml;n binnen WebKnight B.V..</p>
-                <a href="idee_overzicht.html" class="hero-button">Ontdek meer</a>
+                <router-link to="/ideeen" class="nav-link">Ontdek meer</router-link>
             </section>
     <picture>
       <source media="(max-width: 320px)" srcset="../assets/images/header_image_medium_sv.webp" type="image/webp">
@@ -16,25 +16,25 @@
                     <h2>Innovatie</h2>
                     <h3>Baanbrekende idee&euml;n</h3>
                     <p>Verken de idee&euml;n van jouw collega's. Ontdek hoe hun innovaties ons bedrijf vooruit helpen en blijf op de hoogte van de allerlaatste ontwikkelingen."</p>
-                    <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_two">
                     <h2>Creativiteit</h2>
                     <h3>Kracht van creativiteit</h3>
                     <p>Ontdek hoe het aanmoedigen van creatief denken binnen ons bedrijf unieke oplossingen kan opleveren en de groei kan stimuleren.</p>
-                    <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_three">
                     <h2>Realisaties</h2>
                     <h3>Kijkje achter de schermen</h3>
                     <p>Neem een kijkje binnen onze meest innovatieve projecten. Ontdek hoe we uitdagingen omzetten in kansen en bekijk de impact van onze oplossingen.</p>
-                    <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
                 <div class="usp usp_three">
                     <h2>Bijdragen</h2>
                     <h3>Bijdragen aan verandering</h3>
                     <p>Ontdek hoe jouw idee&euml;n een verschil kunnen maken en hoe je kunt bijdragen aan het bereiken van onze gemeenschappelijke doelen.</p>
-                    <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                    <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
 
 
                       <div @click="changePicture" class="img_middle">
-    <img :src="currentImage" id="light">
+    <img :src="currentImage" id="light"><strong class="turn_light">Turn on/off the light!</strong>
   </div>
 
 
@@ -89,22 +89,22 @@
                     <div class="read read_one">
                         <h3>Innovatie</h3>
                         <p>Bij WebKnight B.V. is innovatie meer dan een buzzword. Het is de motor die ons vooruit drijft.</p>
-                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                        <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_two">
                         <h3>Creativiteit</h3>
                         <p>Creativiteit is de vonk die onze idee&euml;n tot leven brengt. Laat je inspireren en inspireer anderen!</p>
-                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                        <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_three">
                         <h3>Realisaties</h3>
                         <p>Onze realisaties zijn het bewijs van onze inzet. Ze tonen aan hoe we uitdagingen omzetten in kansen.</p>
-                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                        <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                     <div class="read read_three">
                         <h3>Bijdragen</h3>
                         <p>Elke bijdrage telt. Jouw idee&euml;n kunnen de koers van WebKnight B.V. veranderen.</p>
-                        <a href="idee_overzicht.html" class="usp-button">lees verder</a>
+                        <router-link to="/ideeen" class="usp-button">lees verder</router-link>
                     </div>
                 </div>
             </section>
@@ -145,8 +145,8 @@ export default {
   data() {
     return {
       images: [
-        "src/assets/images/lightbulb.webp",
         "src/assets/images/lightbulb_off.webp",
+        "src/assets/images/lightbulb.webp",
       ],
       currentIndex: 0
     };
@@ -167,6 +167,11 @@ export default {
 </script>
 
 <style>
+
+.turn_light {
+  text-align: center;
+  margin-block-start: -0.5rem;
+}
 section.hero-section {
   position: absolute;
   top: 6rem;
