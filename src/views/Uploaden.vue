@@ -25,11 +25,11 @@
                         <br>
 
                         <label for="tekstarea">Jouw idee of suggestie:</label>
-                        <textarea v-model="formData.suggestie" required></textarea>
+                        <textarea v-model="formData.ideeArea" required></textarea>
 
                         <br>
 
-                        <select v-model="formData.afdeling" required>
+                        <select v-model="formData.selectie" required>
                             <option value="" disabled selected>Selecteer afdeling</option>
                             <option value="webdevelopment">Webdevelopment</option>
                             <option value="marketing">Marketing</option>
@@ -44,9 +44,9 @@
                         <br>
                         <br>
 
-                        <div class="submit_button">
-                            <button type="button" onclick="saveIdeaForm()">Opslaan</button>
-                        </div>
+                        <!-- <div class="submit_button"> -->
+                          <button type="submit">Verstuur</button>
+                        <!-- </div> -->
                     </form>
                 </div>
             </section>
@@ -59,14 +59,27 @@
       return {
         formData: {
           onderwerp: '',
-          suggestie: '',
-          afdeling: '',
+          ideeArea: '',
+          selectie: ''
         }
       }
     },
     name: 'Uploaden',
     methods: {
-
+      async submitForm() {
+        const response = await fetch('http://localhost:3001/formulieren', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(this.formData)
+        });
+        if (response.ok) {
+          this.formData.onderwerp = '';
+          this.formData.ideeArea = '';
+          this.formData.selectie = '';
+        }
+      }
     }
   }
   </script>
