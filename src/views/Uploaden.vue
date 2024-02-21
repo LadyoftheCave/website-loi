@@ -78,6 +78,7 @@
           this.formData.onderwerp = '';
           this.formData.ideeArea = '';
           this.formData.selectie = '';
+          this.$router.push('/ideeen'); 
         }
       }
     }
