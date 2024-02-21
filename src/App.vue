@@ -255,7 +255,7 @@ main #myForm .submit_button button,
   cursor: pointer;
 }
 
-header .hero-section a {
+.hero-section a {
   font-size: 0.8rem;
 }
 
@@ -277,7 +277,7 @@ main .section_two .read .usp-button {
 .usps button.usp_button:hover,
 header section.hero-section button:hover,
 section.section_two .read .read_button:hover,
-header .hero-section a:hover,
+.hero-section a:hover,
 .usps .usp a.usp-button:hover,
 main .section_two .read .usp-button:hover,
 main #myForm .submit_button button:hover,
@@ -285,7 +285,7 @@ main .idea_container a.usp-button:hover {
   background: var(--kleur-oranje);
 }
 
-header section.hero-section {
+section.hero-section {
   position: absolute;
   top: 6rem;
   right: 0;
@@ -301,7 +301,7 @@ header section.hero-section h1 {
   letter-spacing: 0.1rem;
 }
 
-header section.hero-section p {
+ section.hero-section p {
   margin-bottom: 1.5rem;
 }
 /* EINDE HEADER */
@@ -715,7 +715,7 @@ main .idee_box {
 
   header section.hero-section {
     position: absolute;
-    top: 11rem;
+    top: 8rem;
     right: 0;
     left: 0;
     margin: 0 auto;
@@ -726,7 +726,7 @@ main .idee_box {
   header section.hero-section.uploaden {
     top: 9rem;
   }
-  */ header section.hero-section p {
+ header section.hero-section p {
     margin-bottom: 1.5rem;
   }
 

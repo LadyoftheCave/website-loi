@@ -1,5 +1,5 @@
 <template>
-    <section class="hero-section uploaden">
+    <section class="hero-section uploaden" >
       <h1 class="interior">Idee&euml;n</h1>
             </section>
             <picture>
@@ -8,12 +8,15 @@
               <source media="(min-width: 1201px)" srcset="../assets/images/interior_header_two.webp" type="image/webp">
               <img src="../assets/images/interior_header_two.jpg" alt="Header Banner" class="header-image">
             </picture>
-            <div>
-      <div v-for="formulier in formulieren" :key="formulier.id">
-        <p>{{ formulier.onderwerp }}</p>
-        <p>{{ formulier.ideeArea }}</p>
-        <p>{{ formulier.selectie }}</p>
+            <div class="container--parent">
+            <div class="container--ideeen" >
+      <div v-for="(formulier, index) in formulieren" :key="formulier.id" class="idee--container">
+        <h3>Idee: {{ index + 1 }}</h3> 
+        <p><strong>Onderwerp: </strong>{{ formulier.onderwerp }}</p>
+        <p><strong>Idee: </strong>{{ formulier.ideeArea }}</p>
+        <p><strong>Afdeling: </strong>{{ formulier.selectie }}</p>
       </div>
+    </div>
     </div>
   </template>
   
@@ -33,3 +36,22 @@
     }
   }
   </script>
+
+  <style scoped>
+  .container--parent {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.idee--container {
+  background-color: var(--kleur-oranje);
+  padding: 0.62rem;
+  border-radius: 0.3rem;
+  margin-block-end: 2rem;
+}
+
+.container--parent .container--ideeen {
+  inline-size: 63rem;
+}
+  </style>

@@ -37,7 +37,7 @@
                     <a href="idee_overzicht.html" class="usp-button">lees verder</a>
                 </div>
             </div>
-    <!-- <p>Je tekst hier</p> -->
+
           </section>
           <main>
             <section class="section_one">
@@ -58,7 +58,7 @@
                             <strong>Deel Jouw Inzichten:</strong> Heb je een idee of suggestie? Deel het met de gemeenschap en draag bij aan positieve verandering.
                         </p>
                     </div>
-                    <div class="img_middle"><img src="../assets/images/lightbulb.webp" alt=""><noscript><img src="../assets/images/lightbulb.png" alt="Your Image (Fallback)"></noscript></div>
+                    <div class="img_middle"><img src="../assets/images/lightbulb.webp" alt=""><noscript><img src="../assets/images/lightbulb.png" alt="turn on the light"></noscript></div>
                     <div class="text_right">
                         <p><strong>Betrokkenheid: </strong> Ontvang feedback, werk samen met collega's en zie hoe jouw inbreng de bedrijfscultuur beïnvloedt.</p>
                         <p><strong>Samen bouwen: </strong> Bij WebKnight B.V. bouwen we samen aan een betere toekomst. Jouw idee&euml;n en inzichten zijn de bouwstenen van onze vooruitgang.</p>
@@ -180,7 +180,7 @@ section.hero-section h1 {
 
   section.hero-section {
     position: absolute;
-    top: 11rem;
+    top: 7rem;
     right: 0;
     left: 0;
     margin: 0 auto;

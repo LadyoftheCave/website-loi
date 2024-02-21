@@ -19,7 +19,7 @@
           <router-link to="/ideeen" class="nav-link">Ideeën</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/ideeenbus" class="nav-link">Ideeënbus</router-link>
+          <router-link to="/ideeenbus" class="nav-link">Over Ideeënbus</router-link>
         </li>
       </ul>
       <button class="hamburger" @click="toggleMenu">

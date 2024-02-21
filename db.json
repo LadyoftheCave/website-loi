@@ -1,17 +1,6 @@
 {
   "formulieren": [
-    {
-      "id": "f8a5",
-      "onderwerp": "kk",
-      "ideeArea": "kk",
-      "selectie": "marketing"
-    },
-    {
-      "id": "9c95",
-      "onderwerp": "kk",
-      "ideeArea": "kk",
-      "selectie": "webdesign"
-    },
+    
     {
       "id": "dd47",
       "onderwerp": "Nieuwe stoelen",
@@ -23,6 +12,12 @@
       "onderwerp": "Een piano",
       "ideeArea": "Een piano zodat iedereen die kan spelen, af en toe even een deuntje wel kan spelen",
       "selectie": "webdesign"
+    },
+    {
+      "id": "838a",
+      "onderwerp": "Een donderdagmiddagborrel",
+      "ideeArea": "Iedere donderdagmiddag borrel met karaoke.",
+      "selectie": "marketing"
     }
   ]
 }

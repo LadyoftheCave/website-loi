@@ -31,12 +31,12 @@
 
                         <select v-model="formData.selectie" required>
                             <option value="" disabled selected>Selecteer afdeling</option>
-                            <option value="webdevelopment">Webdevelopment</option>
-                            <option value="marketing">Marketing</option>
-                            <option value="webdesign">Webdesign</option>
-                            <option value="administratie">Administratie</option>
-                            <option value="management">Management</option>
-                            <option value="hrm">HRM</option>
+                            <option value="Webdevelopment">Webdevelopment</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Webdesign">Webdesign</option>
+                            <option value="Administratie">Administratie</option>
+                            <option value="Management">Management</option>
+                            <option value="HRM">HRM</option>
                         </select>
 
                         <br>
@@ -44,9 +44,9 @@
                         <br>
                         <br>
 
-                        <!-- <div class="submit_button"> -->
+                        <div class="submit_button">
                           <button type="submit">Verstuur</button>
-                        <!-- </div> -->
+                        </div>
                     </form>
                 </div>
             </section>
@@ -84,6 +84,32 @@
     }
   }
   </script>
+
+  <style scoped>
+
+  .submit_button button {
+    background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 0.6rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 0 0.3rem 0;
+  cursor: pointer;
+}
+
+.submit_button button:hover {
+  background: var(--kleur-oranje);
+}
+
+select {
+  block-size: 2.5rem;
+  background-color: var(--kleur-oranje);
+}
+
+
+  </style>
 
   
 
