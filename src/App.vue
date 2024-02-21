@@ -316,6 +316,7 @@ main section.section_one {
 main .img_middle img {
   inline-size: 100%;
   margin: 2rem 0 2rem 0;
+  cursor: pointer;
 }
 
 main section.section_three .img_middle img {

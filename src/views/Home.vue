@@ -59,9 +59,14 @@
                         </p>
                     </div>
                     
-                     <div class="img_middle"><img src="../assets/images/lightbulb.webp" alt=""><noscript><img src="../assets/images/lightbulb.png" alt="turn on the light"></noscript></div>
-                     
-                    
+      
+
+
+
+                      <div @click="changePicture" class="img_middle">
+    <img :src="currentImage" id="light">
+  </div>
+
 
                     
                     
@@ -136,8 +141,29 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  data() {
+    return {
+      images: [
+        "src/assets/images/lightbulb.webp",
+        "src/assets/images/lightbulb_off.webp",
+      ],
+      currentIndex: 0
+    };
+  },
+  computed: {
+    currentImage() {
+      return this.images[this.currentIndex];
+    }
+  },
+  methods: {
+    changePicture() {
+      this.currentIndex = (this.currentIndex + 1) % this.images.length;
+    }
+  }
 }
+
+
 </script>
 
 <style>
