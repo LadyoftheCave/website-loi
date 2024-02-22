@@ -11,7 +11,7 @@
           <div class="container--parent">
           <div class="container--ideeen" >
     <div v-for="(formulier, index) in formulieren" :key="formulier.id" class="idee--container">
-      <h3>Idee: {{ index + 1 }}</h3> 
+      <h3><router-link :to="`/idee/${formulier.id}`">Idee: {{ index + 1 }}</router-link></h3>
       <p><strong>Onderwerp: </strong>{{ formulier.onderwerp }}</p>
       <p><strong>Idee: </strong>{{ formulier.ideeArea }}</p>
       <p><strong>Afdeling: </strong>{{ formulier.selectie }}</p>

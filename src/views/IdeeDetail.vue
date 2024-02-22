@@ -1,24 +1,32 @@
 <template>
     <div>
-      <h1>{{ idee.onderwerp }}</h1>
-      <p>{{ idee.ideeArea }}</p>
-      <!-- andere details hier -->
+      <h2>Idee Details</h2>
+      <div v-if="idee">
+        <h3>Idee: {{ ideedetail.id }}</h3>
+        <p><strong>Onderwerp: </strong>{{ idee.onderwerp }}</p>
+        <p><strong>Idee: </strong>{{ idee.ideeArea }}</p>
+        <p><strong>Afdeling: </strong>{{ idee.selectie }}</p>
+      </div>
+      <div v-else>
+        <p>Dit idee kon niet worden gevonden.</p>
+      </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        idee: null
-      }
-    },
-    async created() {
-      const id = this.$route.params.id;
-      const response = await fetch(`http://localhost:3000/formulieren/${id}`);
-      if (response.ok) {
-        this.idee = await response.json();
-      }
+</template>
+
+<script>
+export default {
+  name: 'IdeeDetail',
+  props: ['id'],
+  data() {
+    return {
+      idee: null
+    }
+  },
+  async created() {
+    const response = await fetch(`http://localhost:3000/formulieren/${this.id}`);
+    if (response.ok) {
+      this.idee = await response.json();
     }
   }
-  </script>
+}
+</script>

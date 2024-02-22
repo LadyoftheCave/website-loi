@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import Ideeen from './views/Ideeen.vue';
 import Uploaden from './views/Uploaden.vue';
 import Ideeenbus from './views/Ideeenbus.vue';
+import Idee from './views/Idee.vue'; // importeer je nieuwe Idee component
 import App from './App.vue';
 
 const router = createRouter({
@@ -13,6 +14,7 @@ const router = createRouter({
     { path: '/ideeen', component: Ideeen },
     { path: '/uploaden', component: Uploaden },
     { path: '/ideeenbus', component: Ideeenbus },
+    { path: '/idee/:id', component: Idee }, // voeg de nieuwe route toe
     // andere routes hier
   ],
 });

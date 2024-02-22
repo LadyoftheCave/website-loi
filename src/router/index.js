@@ -27,7 +27,13 @@ const routes = [
     path: '/ideeenbus',
     name: 'Ideeenbus',
     component: Ideeenbus
+  },
+  {
+    path: '/idee/:id',
+    name: 'Idee',
+    component: Idee
   }
+  
 ];
 
 console.log("Routes:", routes);
