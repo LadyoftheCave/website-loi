@@ -114,6 +114,12 @@ header nav.menu {
   padding-block-start: 0.3rem;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
 @media (min-width: 768px) {
   header .nav-link
 {
