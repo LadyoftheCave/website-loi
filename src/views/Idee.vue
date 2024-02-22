@@ -38,7 +38,7 @@ export default {
   },
   async created() {
     const response = await fetch(`http://localhost:3000/formulieren/${this.$route.params.id}`);
-    console.log(response); // voeg deze regel toe
+    console.log(response); 
     if (response.ok) {
       this.idee = await response.json();
     }
