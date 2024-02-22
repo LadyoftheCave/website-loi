@@ -67,7 +67,7 @@
     name: 'Uploaden',
     methods: {
       async submitForm() {
-        const response = await fetch('http://localhost:3001/formulieren', {
+        const response = await fetch('http://localhost:3000/formulieren', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
