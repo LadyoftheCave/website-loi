@@ -668,6 +668,12 @@ main .idee_box {
   align-items: center;
   justify-content: center;
 }
+
+h3 a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
 /* EINDE IDEE BOX */
 
 /* MEDIA QUERIES */

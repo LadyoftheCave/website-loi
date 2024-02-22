@@ -1,24 +1,6 @@
 {
   "formulieren": [
     {
-      "id": "dd47",
-      "onderwerp": "Nieuwe stoelen",
-      "ideeArea": "Betere, rugvriendelijkere, stoelen",
-      "selectie": "management"
-    },
-    {
-      "id": "e13e",
-      "onderwerp": "Een piano",
-      "ideeArea": "Een piano zodat iedereen die kan spelen, af en toe even een deuntje wel kan spelen",
-      "selectie": "webdesign"
-    },
-    {
-      "id": "838a",
-      "onderwerp": "Een donderdagmiddagborrel",
-      "ideeArea": "Iedere donderdagmiddag borrel met karaoke.",
-      "selectie": "marketing"
-    },
-    {
       "id": "30d3",
       "onderwerp": "Een gezellige leeravond in de week",
       "ideeArea": "Om 1 avond in de maand, of in de week een gezellige avond te organiseren om op een ontspannen manier de kennis van het personeel bij te spijkeren.",
@@ -31,28 +13,16 @@
       "selectie": "HRM"
     },
     {
-      "id": "101e",
-      "onderwerp": "kk",
-      "ideeArea": "kk",
-      "selectie": "Administratie"
-    },
-    {
-      "id": "6807",
-      "onderwerp": "kk",
-      "ideeArea": "kk",
-      "selectie": "Webdesign"
-    },
-    {
-      "id": "0f42",
-      "onderwerp": "llllllllll",
-      "ideeArea": "llllllllllll",
+      "id": "fa4f",
+      "onderwerp": "Nieuwe functie website",
+      "ideeArea": "Ik heb een idee voor een nieuwe functie die we aan onze website kunnen toevoegen om de gebruikerservaring te verbeteren. Het idee is om een gepersonaliseerde aanbevelingssysteem te implementeren dat gebruikmaakt van machine learning-algoritmen.\n\nHet doel van dit systeem is om gebruikers suggesties te geven voor producten, artikelen of diensten op basis van hun eerdere interacties en voorkeuren op de website. Door gegevens zoals zoekgeschiedenis, bekeken producten en aankopen te analyseren, kunnen we individuele profielen opbouwen en nauwkeurige aanbevelingen doen die aansluiten bij de interesses van elke gebruiker.\n\nDit zou de algehele gebruikerservaring verbeteren door het gemakkelijker te maken voor gebruikers om relevante inhoud te vinden, waardoor ze meer tijd op onze website doorbrengen en meer geneigd zijn om terug te keren. Bovendien kan het bijdragen aan het verhogen van de conversiepercentages door gebruikers te helpen bij het ontdekken van producten of diensten waarin ze mogelijk geïnteresseerd zijn.\n\nIk geloof dat het implementeren van een dergelijk gepersonaliseerd aanbevelingssysteem ons webplatform naar een hoger niveau kan tillen en ons onderscheidt van de concurrentie.",
       "selectie": "Webdevelopment"
     },
     {
-      "id": "f0b9",
-      "onderwerp": "kk",
-      "ideeArea": "kk",
-      "selectie": "Webdevelopment"
+      "id": "9fcb",
+      "onderwerp": "Employee Recognition Program",
+      "ideeArea": "Beste Team, Ik heb een idee om de werkcultuur en betrokkenheid van medewerkers te verbeteren. Het idee is om een 'Employee Recognition Program' te implementeren. Dit programma is bedoeld om waardering te tonen voor de inzet en prestaties van medewerkers op een gestructureerde en consistente manier. Het zou verschillende vormen van erkenning omvatten, zoals maandelijkse 'Employee of the Month'-awards, kwartaalprestatiebonussen, persoonlijke dankbetuigingen van managers en peer-to-peer erkenning.\n\nDoor een cultuur van waardering te bevorderen, kunnen we het moraal van medewerkers verhogen, de teamgeest versterken en de algehele tevredenheid op de werkvloer vergroten. Bovendien kan dit programma helpen bij het verbeteren van de retentie van talentvolle medewerkers, aangezien zij zich gewaardeerd en erkend zullen voelen voor hun bijdragen. Ik stel voor dat we een taskforce samenstellen om dit programma verder uit te werken, inclusief het definiëren van criteria voor erkenning, het opzetten van beloningsstructuren en het implementeren van een systeem voor het nomineren en selecteren van winnaars. Ik ben ervan overtuigd dat een Employee Recognition Program niet alleen de werkomgeving zal verbeteren, maar ook zal bijdragen aan het behalen van onze organisatiedoelstellingen door het stimuleren van een cultuur van prestatie en waardering. Ik kijk uit naar jullie feedback en de mogelijkheid om dit idee verder te verkennen.",
+      "selectie": "HRM"
     }
   ]
 }

@@ -12,9 +12,9 @@
           <div class="container--ideeen" >
     <div v-for="(formulier, index) in formulieren" :key="formulier.id" class="idee--container">
       <h3><router-link :to="`/idee/${formulier.id}`">Idee: {{ index + 1 }}</router-link></h3>
-      <p><strong>Onderwerp: </strong>{{ formulier.onderwerp }}</p>
-      <p><strong>Idee: </strong>{{ formulier.ideeArea }}</p>
-      <p><strong>Afdeling: </strong>{{ formulier.selectie }}</p>
+      <p class="onderwerp"><strong>Onderwerp: </strong>{{ formulier.onderwerp }}</p>
+      <p class="onderwerp"><strong>Idee: </strong>{{ formulier.ideeArea.slice(0,200)+'...' }}</p>
+      <p class="onderwerp"><strong>Afdeling: </strong>{{ formulier.selectie }}</p>
     </div>
   </div>
   </div>
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+h3 {
+  margin-block-end: 1rem;
+}
 .container--parent {
 display: flex;
 justify-content: center;
@@ -53,5 +56,9 @@ margin-block-end: 2rem;
 
 .container--parent .container--ideeen {
 inline-size: 63rem;
+}
+
+.onderwerp {
+    margin-block-end: .5rem;
 }
 </style>
